@@ -24,6 +24,11 @@ func main() {
 		panic(err)
 	}
 
+	/*
+		unigram, bigram,trigram,4,5 etc.
+		change the value below
+	*/
+
 	fmt.Println(kgram(string(d),2))
 }
 
